@@ -1,0 +1,198 @@
+
+    @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.fa {
+           
+    display: inline-block; 
+    text-align: center;
+    text-decoration: none;
+    padding: 10px;
+    transition: all 0.3s ease;
+    font-size: 15px;
+}
+
+.fa:hover {
+    opacity: 5;
+    color:blue;
+}
+ul{
+    list-style-type: none;
+   
+    
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    
+}
+.top-left h1 {
+   
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid rgb(85, 255, 0); /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color:black }
+}
+
+header {
+    background-color:black;
+    color: #fff;
+    padding: 1em;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    width: 210px; /* Adjust width as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img.avatar{
+height:70px;
+width:70px;
+border-radius:50%;
+vertical-align: middle;
+margin:0px 30px;
+}
+.Homec {
+  position: relative;
+  text-align: center;
+  
+}
+
+
+
+
+.bottom-left {
+  position:absolute;
+  top: 90px;
+  left: 110px;
+  font-size:x-large;
+  
+ 
+  
+}
+
+
+.top-left {
+  position:static;
+  top: 120px;
+  left: 15px;
+  font-size: large;
+  
+}
+
+
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+
+nav ul li {
+    margin-bottom: 1em;
+    margin-left:-2.8em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+main {
+    margin-left: 220px; 
+    padding: 2em;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+.poli p{
+    text-align:center;
+    margin:5px; 
+}
+
+/* Skill bar styles */
+.skill {
+    margin-bottom: 10px;
+}
+
+.skill-name {
+    margin-bottom: 5px;
+}
+
+.skill-bar {
+    height: 20px;
+    background-color: #f2f2f2;
+    border-radius: 100px;
+    overflow: hidden;
+    width:300px;
+}
+
+.skill-level {
+    height: 100%;
+    background-color: rgba(12, 175, 245, 0.756);
+    border-radius: 100px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
+}
+.clg{
+    margin-left:400px;
+    margin-top:-105px;
+}
+.inf1{
+    margin-left:400px;
+    margin-top:-80px;
+}
+#sp{
+  margin-top:30px;
+  margin-bottom:10px;
+}
+#am{
+    margin-top:10px;
+  margin-bottom:10px;
+}
+.hs{
+    margin-top:-185px;
+    margin-left:400px;
+}
+.sk h2{
+    margin-bottom:10px;
+
+}
+.ac h2{
+    margin-bottom:10px;
+    margin-top:40px;
+}
+
+    
